@@ -1,0 +1,68 @@
+.review_title {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.userid {
+	position: absolute;
+	top: 30px;
+	left: 140px;
+	font-size: 16px;
+
+}
+
+.score {
+	position: absolute;
+	top: 35px;
+	left: 15px;
+}
+
+.review {
+	position: absolute;
+	top: 65px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	padding: 5px;
+	resize: none;
+}
+
+.trbtn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 10px;
+	background-color: #0077FF;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.review_text-box {
+	position: relative;
+	height: 150px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	min-width: 500px;
+	margin-top: 10px;
+}
+
+.review_star_color {
+	clip: rect(0, 0, 0, 0);
+}
+
+.review_star_score {
+	position: absolute;
+	width: 100px;
+}
+
+.review_rangeInput {
+	opacity: 0;
+}
+
+.review_starDiv {
+	opacity: 1;
+}
